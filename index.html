@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js" async></script>
+    <title>snowboarding</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <!-- Simulate a smartphone / tablet -->
+    <!-- <div class="mobile-container"> -->
+
+    <!-- Top Navigation Menu -->
+    <nav class="topnav">
+        <img src="/images/LOGO.png" style="width:70px"></img>
+        <div id="myLinks">
+            <a href="#SHOP">SHOP</a>
+            <a href="#TEAM">TEAM</a>
+            <a href="#EVENTS">About</a>
+            <a href="#EXPERIENCE">EXPERIENCE</a>
+            <a href="#COMPANY">COMPANY</a>
+            <a href="#CONTACT">CONTACT</a>
+            <a href="#RECH">RECH</a>
+            <a href="#PANIER">PANIER</a>
+            <a href="#PRIX">PRIX</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+    <!-- fin de la navbar -->
+    <!-- header avec titre -->
+    <header class="flex-container bgheader white jcenter acenter">
+        <h1>RUN OVER<br>EVERYTHING</h1>
+        <!-- BTN "SEE DETAILS" -->
+    </header>
+    <!-- FIN DU HEADER -->
+    <div class="flex-container bgwhite acenter">
+        <H2>SNOWBOARDS</H2>
+        <H5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque culpa ex, eveniet officiis reiciendis
+            aliquid
+            accusamus quis? Delectus dicta aliquam est vero aliquid, cupiditate minus neque adipisci harum debitis
+            obcaecati
+            dolor.</H5>
+
+        <!-- slider -->
+        <div class="w3-content w3-display-container">
+            <img class="mySlides" src="/images/snowboard1.png" style="width:100%" alt="">
+            <img class="mySlides" src="/images/snowboard2.png" style="width:100%" alt="">
+            <img class="mySlides" src="/images/snowboard3.png" style="width:100%" alt="">
+            <img class="mySlides" src="/images/snowboard4.png" style="width:100%" alt="">
+
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+
+    </div>
+    <!-- section -->
+    <section class="flex-container bgsection white acenter">
+        <h5>THE MOUNTAINS SNOWBOARDING</h5>
+        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et minus, dignissimos iusto iste natus sint tempore
+            repudiandae aliquid odit esse earum corporis. Consequatur, quaerat veniam, voluptas amet eaque aperiam quos
+        </p>
+        <p> maiores veritatis temporibus illum aspernatur, earum nulla totam eveniet quo dolorum debitis autem iure hic
+            voluptates exercitationem adipisci fuga reiciendis dolores eius perferendis. Ab ex molestias nisi beatae cum
+            nam
+        </p>
+    </section>
+    <!-- fin du section -->
+    <div class="">
+        <h5>FEATURES</h5>
+    </div>
+    <!--  list de card -->
+
+    <!-- les images en modals -->
+    <div class="w3-row-padding">
+        <div class="w3-container w3-third">
+            <img src="images/img 1.png" style="width:100%;cursor:pointer" onclick="onClick(this)"
+                class="w3-hover-opacity">
+        </div>
+        <div class="w3-container w3-third">
+            <img src="images/img 2.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)"
+                class="w3-hover-opacity">
+        </div>
+        <div class="w3-container w3-third">
+            <img src="images/img 3.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)"
+                class="w3-hover-opacity">
+        </div>
+        <div class="w3-container w3-third">
+            <img src="images/img 4.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)"
+                class="w3-hover-opacity">
+        </div>
+    </div>
+    <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <div class="w3-modal-content w3-animate-zoom">
+            <img id="img01" style="width:100%">
+        </div>
+    </div>
+    <!-- fin de list -->
+    <!-- footer -->
+    <footer class="flex-containerf bg-black white jcenter">
+        <ul>PRODUCTS
+            <li>Mens</li>
+            <li>Womens</li>
+            <li>Youth</li>
+        </ul>
+        <ul>ABOUT
+            <li>Careers and Internships</li>
+            <li>Sponsorships</li>
+            <li>team</li>
+            <li>Catalog Request/Ddownload</li>
+        </ul>
+        <ul>CUSTOMER SUPPORT
+            <li>Contact Us</li>
+            <li>Shipping and Order Tracking</li>
+            <li>Easy Returns</li>
+            <li>Warranty</li>
+            <li>Replacement Binding Paris</li>
+        </ul>
+        <UL>NEWSLETTER
+            <li>input mail</li>
+            <li>logos</li>
+        </UL>
+    </footer>
+
+</body>
+
+</html>
