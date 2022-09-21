@@ -25,8 +25,8 @@ function onClick(element) {
     document.getElementById("modal01").style.display = "block";
   }
 //   navbar
-function myFunction() {
-    var x = document.getElementById("myLinks");
+function burgerMenu() {
+    var x = document.getElementById("burger-menu");
     if (x.style.display === "block") {
       x.style.display = "none";
     } else {
