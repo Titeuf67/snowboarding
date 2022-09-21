@@ -1,0 +1,30 @@
+header>
+        <nav>
+            <ul id="un">
+                <li><img src="images/LOGO.png"></li>
+                <a href="javascript:void(0);" id="burger-menu-icon" onclick="burgerMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <ul id="burger-menu">
+                    <li><a href="#snowboardcompagny">Home</a></li>
+                    <li><a href="#snowboards">snowboards</a></li>
+                    <li><a href="#aboutus">about us</a></li>
+                    <li><a href="#features">features</a></li>
+                    <li><a href="#footer">footer</a></li>
+                </ul>
+
+            </ul>
+            <ul id="deux">
+                <li><i class="fas fa-search"></i></li>
+                <li><i class="fas fa-shopping-bag"></i></li>
+                <li><i class="fas fa-euro-sign"></i></li>
+            </ul>
+        </nav>
+        <section id="snowboardcompagny">
+
+            <h1>snowboard compagny</h1>
+            <button> <a href="#aboutus">see details</a></button>
+            </div>
+
+        </section>
+    </header>
